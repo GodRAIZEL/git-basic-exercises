@@ -1,0 +1,123 @@
+    1  ip addr show
+    2  nmap -sP 192.168.0.222
+    3  nmap -sP 192.168.0.222/24
+    4  iwconfig
+    5  ip link show
+    6  sudo ip link set wlan0 up
+    7  lspci | grep -i network
+    8  sudo apt update
+    9  sudo apt install firmware-linux-nonfree
+   10  sudo apt install firmware-b43-installer
+   11  nmcli device status
+   12  dmesg | grep -i wifi
+   13  rfkill list
+   14  dmesg
+   15  ip a
+   16  sudo apt update
+   17  sudo apt install rfkill
+   18  rfkill list
+   19  which rfkill
+   20  dmesg | less
+   21  ip a
+   22  ls
+   23  sudo chmod +x VBoxLinuxAdditions.run
+   24  sudo sh ./VBoxLinuxAdditions.run
+   25  sudo reboot now
+   26  ls
+   27  sudo ./VBoxLinuxAdditions.run
+   28  sudo wireshark
+   29  sudo apt update
+   30  sudo apt install pyhton3-pip
+   31  sudo apt install python3-pip
+   32  sudo pip3 install evillimiter
+   33  ip a
+   34  sudo evillimiter
+   35  scan
+   36  sudo evillimiter
+   37  sudo su
+   38  git clone https://github.com/bitbrute/evillimiter.git
+   39  cd evillimiter
+   40  ls
+   41  sudo python3 setup.py install
+   42  evillimiter
+   43  sudo evillimiter
+   44  ip a
+   45  evillimiter
+   46  sudo evillimiter
+   47  git clone https://github.com/bitbrute/evillimiter.git
+   48  cd evillimiter
+   49  ls
+   50  sudo python3 setup.py install
+   51  evillimiter
+   52  sudo evillimiter
+   53  ping 192.168.0.104
+   54  sudo iwconfig eth0
+   55  nmcli device
+   56  sudo evillimiter -i eth0
+   57  --flush
+   58  --flush
+   59  sudo evillimiter
+   60  sudo bettercap
+   61  sudo apt install bettercap
+   62  sudo bettercap -x
+   63  sudo bettercap
+   64  sudo su
+   65  sudo bettercap
+   66  sudo su
+   67  svn
+   68  apt install libssl-dev autoconf make g++ subversion
+   69  Y
+   70  sudo apt install libssl-dev autoconf make g++ subversion
+   71  clear
+   72  sudo apt update
+   73  sudo apt install bettercap
+   74  sudo bettercap
+   75  ifconfig
+   76  sudo bettercap -iface eth0
+   77  ls
+   78  sudo bettercap -iface eth0
+   79  rm -r git-basic-exercises
+   80  rm -rf git-basic-exercises
+   81  cd git-basic-exercises
+   82  mkdir git-basic-exercises
+   83  cd git-basic-exercises
+   84  ls -a
+   85  git init
+   86  ls -a
+   87  git status
+   88  touch README.md
+   89  ls -a
+   90  git status
+   91  git log
+   92  git add .
+   93  git status
+   94  git commit -m "initial commit"
+   95  git log
+   96  git branch -m master main
+   97  q
+   98  nano README.md
+   99  cat README.md
+  100  git status
+  101  git add .
+  102  git commit -m "second commit"
+  103  nano README.md
+  104  git add .
+  105  git commit -m "third commit"
+  106  git log
+  107  git checkout f3ac361393cf5ebed045d6cd0a3e852bb68f099c\n
+  108  cat README.md
+  109  git checkout main
+  110  cat README.md
+  111  git branch milkshake-flavours
+  112  git branch
+  113  git checkout milkshake-flavours
+  114  nano milkshakes.md
+  115  git status
+  116  git add .
+  117  git commit -m "added initial flavours"
+  118  git log
+  119  git checkout main
+  120  git branch history
+  121  git checkout history
+  122  git log
+  123  git branch
